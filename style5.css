@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #8b0000; /* Dark red */
+}
+
+.entry-form {
+    margin-bottom: 20px;
+}
+
+.entry-input {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #8b0000; /* Dark red */
+}
+
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8b0000; /* Dark red */
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #8b0000; /* Dark red */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #b22222; /* Mild red */
+}
+
+.entries {
+    margin-top: 20px;
+}
+
+.entry {
+    background-color: #ffe4e1; /* Very mild red */
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.entry p {
+    margin: 0;
+    color: #8b0000; /* Dark red */
+}
+
+.entry p strong {
+    color: #b22222; /* Mild red */
+}
+

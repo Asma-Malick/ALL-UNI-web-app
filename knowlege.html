@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Base</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <header>
+        <h1>Knowledge Base</h1>
+    </header>
+    <main>
+        <section id="notes">
+            <h2>Notes</h2>
+            <button id="show-note-input">Add Note</button>
+            <div id="note-inputs" style="display: none;">
+                <input type="text" id="note-heading" placeholder="Note Heading">
+                <textarea id="note-content" placeholder="Note Content"></textarea>
+                <button id="add-note-btn">Add</button>
+            </div>
+            <ul id="notes-list"></ul>
+        </section>
+        <section id="resources">
+            <h2>Resources</h2>
+            <button id="show-resource-input">Add Resource</button>
+            <div id="resource-inputs" style="display: none;">
+                <input type="text" id="resource-input" placeholder="Enter Resource">
+                <button id="add-resource-btn">Add</button>
+            </div>
+            <ul id="resources-list"></ul>
+        </section>
+        <section id="projects">
+            <h2>Projects/Assignments</h2>
+            <button id="show-project-input">Add Project</button>
+            <div id="project-inputs" style="display: none;">
+                <input type="text" id="project-input" placeholder="Enter Project">
+                <button id="add-project-btn">Add</button>
+            </div>
+            <ul id="projects-list"></ul>
+        </section>
+    </main>
+   
+    <script src="script4.js"></script>
+</body>
+</html>

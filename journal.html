@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journaling App</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Journal</h1>
+        <div class="entry-form">
+            <div class="entry-input">
+                <label for="feelings">How do you feel today?</label>
+                <select id="feelings">
+                    <option value="Happy">Happy</option>
+                    <option value="Sad">Sad</option>
+                    <option value="Excited">Excited</option>
+                    <option value="Angry">Angry</option>
+                    <option value="Anxious">Anxious</option>
+                    <option value="Content">Content</option>
+                    <option value="Content">Irritable</option>
+                    <option value="Content">Cheerful</option>
+                    <option value="Content">Disturbed</option>
+                    <option value="Content">Others</option>
+                </select>
+            </div>
+            <div class="entry-input">
+                <label for="entry-text">Write your entry:</label>
+                <textarea id="entry-text" placeholder="Write your entry..."></textarea>
+            </div>
+            <button onclick="addEntry()">Add Entry</button>
+        </div>
+        <div class="entries" id="entries">
+            <!-- Entries will be dynamically added here -->
+        </div>
+    </div>
+
+    <script src="script5.js"></script>
+</body>
+</html>
